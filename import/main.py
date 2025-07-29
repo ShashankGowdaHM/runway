@@ -46,7 +46,7 @@ class Importer:
             exit(1)        
 
 
-
+    """ 
     def extract_keys_from_resource_blocks(self, tf_content):
         resource_blocks = re.findall(r'resource\s+".*?"\s+".*?"\s*{(.*?)}', tf_content, re.DOTALL)
         keys = set()
@@ -77,7 +77,7 @@ class Importer:
                     keys = self.extract_keys_from_resource_blocks(content)
                     rel_path = os.path.relpath(file_path, source_dir)
                     # result = [rel_path]
-                    return result.append(keys)
+                    return result.append(keys) """
                 
 
 
@@ -85,7 +85,7 @@ class Importer:
     def generate_context(self, resource, source_dir):
         context = {}
 
-        keys = self.parse_main_tf_files(source_dir)
+        keys = self.parse_main_tf_files(source_dir)     # Look up az cli for the populated attributes and form context
 
         for i in range(len(keys)):
             context['inputs'] = {f"{keys[i]}" : "" for i in range(len(keys))}
