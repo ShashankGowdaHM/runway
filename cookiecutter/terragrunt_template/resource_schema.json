@@ -1,0 +1,19 @@
+{
+"virtualNetwork": {
+    "module_path": "azurerm/resources/vnet/modules/azurerm_virtual_network",
+    "inputs": ["name", "subscription_id", "location", "resource_group_name", "address_space"],
+    "dependencies": ["resource_group"]
+},
+"subnet": {
+    "module_path": "azurerm/resources/subnet/modules/azurerm_subnet",
+    "inputs": ["name", "resource_group_name", "virtual_network_name", "address_prefixes"],
+    "dependencies": ["virtual_network"]
+},
+"keyVault": {
+    "module_path": "azurerm/resources/keyvault/modules/azurerm_key_vault",
+    "inputs": ["name", "location", "subscription_id", "resource_group_name"],
+    "dependencies": ["resource_group"]
+}
+}
+
+

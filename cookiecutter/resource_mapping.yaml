@@ -1,0 +1,19 @@
+Microsoft.Network/virtualNetworks:
+  resource_name: vnet
+  folder_path: "virtual-network/{{env}}-{{vnet_name | lower | replace('-', '_')}}"
+  module_path: "github.com/org/terraform-azurerm-virtual-network"
+
+Microsoft.Network/virtualNetworks/subnets:
+  resource_name: subnet
+  folder_path: "subnet/{{env}}-{{vnet_name | lower | replace('-', '_')}}/{{subnet_name | lower | replace('-', '_')}}"
+  module_path: "github.com/org/terraform-azurerm-subnet"
+
+Microsoft.Network/networkSecurityGroups:
+  resource_name: nsg
+  folder_path: "nsg/{{env}}-{{nsg_name | lower | replace('-', '_')}}"
+  module_path: "github.com/org/terraform-azurerm-nsg"
+
+Microsoft.Storage/storageAccounts:
+  resource_name: storage
+  folder_path: "storage-account/{{env}}-{{storage_name | lower | replace('-', '_')}}"
+  module_path: "github.com/org/terraform-azurerm-storage-account"

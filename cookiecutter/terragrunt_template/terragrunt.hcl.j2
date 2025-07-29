@@ -1,0 +1,26 @@
+terraform {
+source = "git::ssh://git@github.azc.ext.hp.com/HPAIP/terraform-modules.git//{{ cookiecutter.module_path }}?ref=master"
+}
+
+include {
+path = find_in_parent_folders("azure.hcl")
+}
+
+{% if cookiecutter.dependencies %}
+{% for dep in cookiecutter.dependencies %}
+dependency "{{ dep.type }}" {
+  config_path = "../../{{ dep.type }}/{{ dep.name }}"
+  mock_outputs_allowed_terraform_commands = ["validate", "plan"]
+  mock_outputs = {
+    name = "{{ cookiecutter.resource_name }}"
+  }
+}
+{% endfor %}
+{% endif %}
+
+inputs = {
+{% for key, value in cookiecutter.inputs.items() %}
+  {{ key }} = {{ value }}
+{% endfor %}
+}
+

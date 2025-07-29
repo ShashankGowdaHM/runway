@@ -1,0 +1,8 @@
+{
+  "resource_type": "default",
+  "module_path": "default/path",
+  "resource_name": "resource",
+  "folder_path": "default/folder",
+  "inputs": {},
+  "dependencies": []
+}

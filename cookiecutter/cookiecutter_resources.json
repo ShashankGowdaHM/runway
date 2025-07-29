@@ -1,0 +1,59 @@
+{
+  "virtualNetwork": [
+    {
+      "module_path": "azurerm/resources/vnet/modules/azurerm_virtual_network",
+      "resource_name": "hpaip-stg-aigw-vnet1",
+      "folder_path": "virtual-network\\hpaip-aigw-vnet1",
+      "inputs": {
+        "name": "\"hpaip-${local.environment_name}-aigw-vnet1\"",
+        "subscription_id": "${local.subscription_id}",
+        "location": "${local.location}",
+        "resource_group_name": "${dependency.resource_group.outputs.name}",
+        "address_space": "[\"10.201.0.0/16\"]",
+        "tags": "local.resource_tags"
+      },
+      "dependencies": [
+        { "type": "resource-group", "name": "hpaip-stg-common-rg1" }
+      ]
+    }
+  ],
+  "subnets": [
+    {
+      "module_path": "azurerm/resources/subnet/modules/azurerm_subnet",
+      "resource_name": "AppGatewaySubnet1",
+      "folder_path": "subnet\\AppGatewaySubnet1",
+      "inputs": {
+        "name": "AppGatewaySubnet1",
+        "subscription_id": "${local.subscription_id}",
+        "location": "${local.location}",
+        "resource_group_name": "${dependency.resource_group.outputs.name}",
+        "address_space": "[\"10.201.6.0/23\"]",
+        "tags": "local.resource_tags"
+      },
+      "dependencies": [
+        { "type": "resource-group", "name": "hpaip-stg-common-rg1" },
+        { "type": "virtual-network", "name": "hpaip-stg-aigw-rg1" }
+
+      ]
+    },
+    {
+      "module_path": "azurerm/resources/subnet/modules/azurerm_subnet",
+      "resource_name": "ContainerAppSubnet1",
+      "folder_path": "subnet\\ContainerAppSubnet1",
+      "inputs": {
+        "name": "ContainerAppSubnet1",
+        "subscription_id": "${local.subscription_id}",
+        "location": "${local.location}",
+        "resource_group_name": "${dependency.resource_group.outputs.name}",
+        "address_space": "[\"10.201.8.0/23\"]",
+        "tags": "local.resource_tags"
+      },
+      "dependencies": [
+        { "type": "resource-group", "name": "hpaip-stg-common-rg1" },
+        { "type": "virtual-network", "name": "hpaip-stg-aigw-rg1" }
+
+      ]
+    }
+  ]
+}
+

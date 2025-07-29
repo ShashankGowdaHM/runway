@@ -1,0 +1,1878 @@
+[
+  {
+    "id": "/subscriptions/e461018b-63ae-4540-b3f4-cc7f65dd8cee/resourceGroups/Core-Services-PRO-Logging-SCUS-RG/providers/Microsoft.OperationalInsights/workspaces/hpcoreservices-pro",
+    "location": "eastus",
+    "name": "hpcoreservices-pro",
+    "type": "Microsoft.OperationalInsights/workspaces",
+    "subscriptionId": "e461018b-63ae-4540-b3f4-cc7f65dd8cee"
+  },
+  {
+    "id": "/subscriptions/e461018b-63ae-4540-b3f4-cc7f65dd8cee/resourceGroups/Cost_Optimization/providers/microsoft.insights/workbooks/6f4b1200-557d-439e-81b8-43808151904d",
+    "location": "eastus",
+    "name": "6f4b1200-557d-439e-81b8-43808151904d",
+    "type": "microsoft.insights/workbooks",
+    "subscriptionId": "e461018b-63ae-4540-b3f4-cc7f65dd8cee"
+  },
+  {
+    "id": "/subscriptions/e461018b-63ae-4540-b3f4-cc7f65dd8cee/resourceGroups/CORESERVICES-PRO-RG/providers/Microsoft.Resources/templateSpecs/windows-domain-join",
+    "location": "southcentralus",
+    "name": "windows-domain-join",
+    "type": "Microsoft.Resources/templateSpecs",
+    "subscriptionId": "e461018b-63ae-4540-b3f4-cc7f65dd8cee"
+  },
+  {
+    "id": "/subscriptions/e461018b-63ae-4540-b3f4-cc7f65dd8cee/resourceGroups/CORESERVICES-PRO-RG/providers/Microsoft.Resources/templateSpecs/windows-domain-join/versions/V1",
+    "location": "southcentralus",
+    "name": "windows-domain-join/V1",
+    "type": "Microsoft.Resources/templateSpecs/versions",
+    "subscriptionId": "e461018b-63ae-4540-b3f4-cc7f65dd8cee"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus2",
+    "location": "eastus2",
+    "name": "NetworkWatcher_eastus2",
+    "type": "Microsoft.Network/networkWatchers",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/virtualNetworks/hpaip-dev-gateway-vnet1",
+    "location": "eastus2",
+    "name": "hpaip-dev-gateway-vnet1",
+    "type": "Microsoft.Network/virtualNetworks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-dev-gateway-vnet1-ip",
+    "location": "eastus2",
+    "name": "hpaip-dev-gateway-vnet1-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/bastionHosts/hpaip-dev-gateway-vnet1-bastion",
+    "location": "eastus2",
+    "name": "hpaip-dev-gateway-vnet1-bastion",
+    "type": "Microsoft.Network/bastionHosts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.KeyVault/vaults/hpaipdevcommonkv1",
+    "location": "eastus2",
+    "name": "hpaipdevcommonkv1",
+    "type": "Microsoft.KeyVault/vaults",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-dev-gateway-ng1-ip",
+    "location": "eastus2",
+    "name": "hpaip-dev-gateway-ng1-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/natGateways/hpaip-dev-gateway-ng1",
+    "location": "eastus2",
+    "name": "hpaip-dev-gateway-ng1",
+    "type": "Microsoft.Network/natGateways",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.OperationalInsights/workspaces/hpaipdevcommonrg1logan1",
+    "location": "eastus2",
+    "name": "hpaipdevcommonrg1logan1",
+    "type": "Microsoft.OperationalInsights/workspaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/applicationGatewayWebApplicationFirewallPolicies/hpaip-dev-aigw-waf1",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-waf1",
+    "type": "Microsoft.Network/applicationGatewayWebApplicationFirewallPolicies",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-dev-aigw-contapp2-manenv2-pe1",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-contapp2-manenv2-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-dev-aigw-contapp2-manenv2-pe1.nic.4be645a4-df1b-47bf-96ea-28eb4cb3fd01",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-contapp2-manenv2-pe1.nic.4be645a4-df1b-47bf-96ea-28eb4cb3fd01",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.eastus2.azurecontainerapps.io",
+    "location": "global",
+    "name": "privatelink.eastus2.azurecontainerapps.io",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.eastus2.azurecontainerapps.io/virtualNetworkLinks/hpaip-dev-aigw-manenv2-link",
+    "location": "global",
+    "name": "privatelink.eastus2.azurecontainerapps.io/hpaip-dev-aigw-manenv2-link",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.App/managedEnvironments/hpaip-dev-aigw-manenv3",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-manenv3",
+    "type": "Microsoft.App/managedEnvironments",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ME_hpaip-dev-aigw-manenv3_hpaip-dev-common-rg1_eastus2/providers/Microsoft.Network/loadBalancers/capp-svc-lb",
+    "location": "eastus2",
+    "name": "capp-svc-lb",
+    "type": "Microsoft.Network/loadBalancers",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.App/containerApps/hpaip-dev-aigw-contapp3",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-contapp3",
+    "type": "Microsoft.App/containerApps",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-dev-aigw-contapp3-manenv3-pe3",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-contapp3-manenv3-pe3",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-dev-aigw-contapp3-manenv3-pe3.nic.7661d75c-62ee-4e3f-a0a9-e7f65d2d115f",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-contapp3-manenv3-pe3.nic.7661d75c-62ee-4e3f-a0a9-e7f65d2d115f",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-dev-aigw-ag1-ip",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-ag1-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/applicationGateways/hpaip-dev-aigw-ag1",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-ag1",
+    "type": "Microsoft.Network/applicationGateways",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkSecurityGroups/hpaip-dev-aigw-nsg1",
+    "location": "eastus2",
+    "name": "hpaip-dev-aigw-nsg1",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-dev-gryff-aoai1",
+    "location": "eastus2",
+    "name": "hpotter-dev-gryff-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.Network/privateEndpoints/hpotter-dev-gryff-aoai1-aigw-pe1",
+    "location": "eastus2",
+    "name": "hpotter-dev-gryff-aoai1-aigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.Network/networkInterfaces/hpotter-dev-gryff-aoai1-aigw-pe1-nic",
+    "location": "eastus2",
+    "name": "hpotter-dev-gryff-aoai1-aigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.openai.azure.com",
+    "location": "global",
+    "name": "privatelink.openai.azure.com",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.openai.azure.com/virtualNetworkLinks/tw3otzgaovpjs",
+    "location": "global",
+    "name": "privatelink.openai.azure.com/tw3otzgaovpjs",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkSecurityGroups/hpaip-dev-common-linvm1-nsg",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-linvm1-nsg",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-dev-common-linvm1963_z1",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-linvm1963_z1",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Compute/virtualMachines/hpaip-dev-common-linvm1",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-linvm1",
+    "type": "Microsoft.Compute/virtualMachines",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/HPAIP-DEV-COMMON-RG1/providers/Microsoft.Compute/disks/hpaip-dev-common-linvm1_OsDisk_1_87a4ff2448c640c7afa0326d51d77477",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-linvm1_OsDisk_1_87a4ff2448c640c7afa0326d51d77477",
+    "type": "Microsoft.Compute/disks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-hpaip-dev-common-linvm1",
+    "location": "eastus2",
+    "name": "shutdown-computevm-hpaip-dev-common-linvm1",
+    "type": "Microsoft.DevTestLab/schedules",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Storage/storageAccounts/hpaipdevcommonst1",
+    "location": "eastus2",
+    "name": "hpaipdevcommonst1",
+    "type": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-dev-common-st1-vnet1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-st1-vnet1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-dev-common-st1-vnet1-pe1.nic.a77b04b7-a6f3-4be9-be73-a0b9f637cb90",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-st1-vnet1-pe1.nic.a77b04b7-a6f3-4be9-be73-a0b9f637cb90",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net",
+    "location": "global",
+    "name": "privatelink.blob.core.windows.net",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net/virtualNetworkLinks/ailmg2vbwgjke",
+    "location": "global",
+    "name": "privatelink.blob.core.windows.net/ailmg2vbwgjke",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-stg-aigw-vnet1-bastion-ip",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-vnet1-bastion-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/virtualNetworks/hpaip-stg-aigw-vnet1",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-vnet1",
+    "type": "Microsoft.Network/virtualNetworks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/bastionHosts/hpaip-stg-aigw-vnet1-bastion",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-vnet1-bastion",
+    "type": "Microsoft.Network/bastionHosts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.KeyVault/vaults/hpaipstgcommonkv1",
+    "location": "eastus2",
+    "name": "hpaipstgcommonkv1",
+    "type": "Microsoft.KeyVault/vaults",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/networkSecurityGroups/hpaip-stg-aigw-nsg1",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-nsg1",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/applicationGatewayWebApplicationFirewallPolicies/hpaip-stg-aigw-waf1",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-waf1",
+    "type": "Microsoft.Network/applicationGatewayWebApplicationFirewallPolicies",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-stg-aigw-ng1-ip",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-ng1-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/natGateways/hpaip-stg-aigw-ng1",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-ng1",
+    "type": "Microsoft.Network/natGateways",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Storage/storageAccounts/hpaipstgcommonst1",
+    "location": "eastus2",
+    "name": "hpaipstgcommonst1",
+    "type": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-stg-common-st1-vnet1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-st1-vnet1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-stg-common-st1-vnet1-pe1.nic.da70f402-6e4d-40de-ab86-ecdfc64e4277",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-st1-vnet1-pe1.nic.da70f402-6e4d-40de-ab86-ecdfc64e4277",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net",
+    "location": "global",
+    "name": "privatelink.blob.core.windows.net",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net/virtualNetworkLinks/bcjfoxa364n6q",
+    "location": "global",
+    "name": "privatelink.blob.core.windows.net/bcjfoxa364n6q",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.OperationalInsights/workspaces/hpaipstgcommonrg1logan1",
+    "location": "eastus2",
+    "name": "hpaipstgcommonrg1logan1",
+    "type": "Microsoft.OperationalInsights/workspaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.App/managedEnvironments/hpaip-stg-aigw-manenv1",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-manenv1",
+    "type": "Microsoft.App/managedEnvironments",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ME_hpaip-stg-aigw-manenv1_hpaip-stg-common-rg1_eastus2/providers/Microsoft.Network/loadBalancers/capp-svc-lb",
+    "location": "eastus2",
+    "name": "capp-svc-lb",
+    "type": "Microsoft.Network/loadBalancers",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.App/containerApps/hpaip-stg-aigw-contapp2",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-contapp2",
+    "type": "Microsoft.App/containerApps",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-stg-aigw-contapp1-manenv1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-contapp1-manenv1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-stg-aigw-contapp1-manenv1-pe1.nic.8b60cd73-7d97-4e82-a562-311334b6d14b",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-contapp1-manenv1-pe1.nic.8b60cd73-7d97-4e82-a562-311334b6d14b",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.eastus2.azurecontainerapps.io",
+    "location": "global",
+    "name": "privatelink.eastus2.azurecontainerapps.io",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.eastus2.azurecontainerapps.io/virtualNetworkLinks/hpaip-stg-aigw-manenv1-link",
+    "location": "global",
+    "name": "privatelink.eastus2.azurecontainerapps.io/hpaip-stg-aigw-manenv1-link",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-stg-aigw-ag1-ip",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-ag1-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/applicationGateways/hpaip-stg-aigw-ag1",
+    "location": "eastus2",
+    "name": "hpaip-stg-aigw-ag1",
+    "type": "Microsoft.Network/applicationGateways",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-stg-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-stg-gryff-aoai1",
+    "location": "eastus2",
+    "name": "hpotter-stg-gryff-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-stg-rg1/providers/Microsoft.Network/privateEndpoints/hpotter-stg-gryff-aoai1-aigw-pe1",
+    "location": "eastus2",
+    "name": "hpotter-stg-gryff-aoai1-aigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-stg-rg1/providers/Microsoft.Network/networkInterfaces/hpotter-stg-gryff-aoai1-aigw-pe1-nic",
+    "location": "eastus2",
+    "name": "hpotter-stg-gryff-aoai1-aigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.openai.azure.com",
+    "location": "global",
+    "name": "privatelink.openai.azure.com",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.openai.azure.com/virtualNetworkLinks/bcjfoxa364n6q",
+    "location": "global",
+    "name": "privatelink.openai.azure.com/bcjfoxa364n6q",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.CognitiveServices/accounts/perfop-stg-pionr-aoai1",
+    "location": "eastus2",
+    "name": "perfop-stg-pionr-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.Network/privateEndpoints/perfop-stg-pionr-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "perfop-stg-pionr-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.Network/networkInterfaces/perfop-stg-pionr-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "perfop-stg-pionr-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ipssai-stg-rg1/providers/Microsoft.CognitiveServices/accounts/ipssai-stg-printosnio-aoai1",
+    "location": "eastus2",
+    "name": "ipssai-stg-printosnio-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ipssai-stg-rg1/providers/Microsoft.Network/privateEndpoints/ipssai-stg-printosnio-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "ipssai-stg-printosnio-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ipssai-stg-rg1/providers/Microsoft.Network/networkInterfaces/ipssai-stg-printosnio-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "ipssai-stg-printosnio-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ms-stg-rg1/providers/Microsoft.CognitiveServices/accounts/ms-stg-mscc-aoai1",
+    "location": "eastus2",
+    "name": "ms-stg-mscc-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ms-stg-rg1/providers/Microsoft.Network/privateEndpoints/ms-stg-mscc-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "ms-stg-mscc-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ms-stg-rg1/providers/Microsoft.Network/networkInterfaces/ms-stg-mscc-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "ms-stg-mscc-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/rcblabdune-stg-rg1/providers/Microsoft.CognitiveServices/accounts/rcblabdune-stg-att-aoai1",
+    "location": "eastus2",
+    "name": "rcblabdune-stg-att-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/rcblabdune-stg-rg1/providers/Microsoft.Network/privateEndpoints/rcblabdune-stg-att-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "rcblabdune-stg-att-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/rcblabdune-stg-rg1/providers/Microsoft.Network/networkInterfaces/rcblabdune-stg-att-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "rcblabdune-stg-att-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Storage/storageAccounts/deveastus2tfstate",
+    "location": "eastus2",
+    "name": "deveastus2tfstate",
+    "type": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/genai-stg-rg1/providers/Microsoft.CognitiveServices/accounts/genai-stg-aicards-aoai1",
+    "location": "eastus2",
+    "name": "genai-stg-aicards-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/genai-stg-rg1/providers/Microsoft.Network/privateEndpoints/genai-stg-aicards-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "genai-stg-aicards-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/genai-stg-rg1/providers/Microsoft.Network/networkInterfaces/genai-stg-aicards-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "genai-stg-aicards-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-dev-common-kv1-vnet1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-kv1-vnet1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-dev-common-kv1-vnet1-pe1-nic",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-kv1-vnet1-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net",
+    "location": "global",
+    "name": "privatelink.vaultcore.azure.net",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net/virtualNetworkLinks/ailmg2vbwgjke",
+    "location": "global",
+    "name": "privatelink.vaultcore.azure.net/ailmg2vbwgjke",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-stg-common-kv1-vnet1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-kv1-vnet1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-stg-common-kv1-vnet1-pe1-nic",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-kv1-vnet1-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net",
+    "location": "global",
+    "name": "privatelink.vaultcore.azure.net",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net/virtualNetworkLinks/bcjfoxa364n6q",
+    "location": "global",
+    "name": "privatelink.vaultcore.azure.net/bcjfoxa364n6q",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/networkSecurityGroups/hpaip-stg-common-linvm1-nsg",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-linvm1-nsg",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-stg-common-linvm165_z1",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-linvm165_z1",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Compute/virtualMachines/hpaip-stg-common-linvm1",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-linvm1",
+    "type": "Microsoft.Compute/virtualMachines",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/HPAIP-STG-COMMON-RG1/providers/Microsoft.Compute/disks/hpaip-stg-common-linvm1_OsDisk_1_fd5533c3d0a74b5798b83f6f102ea9ea",
+    "location": "eastus2",
+    "name": "hpaip-stg-common-linvm1_OsDisk_1_fd5533c3d0a74b5798b83f6f102ea9ea",
+    "type": "Microsoft.Compute/disks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-hpaip-stg-common-linvm1",
+    "location": "eastus2",
+    "name": "shutdown-computevm-hpaip-stg-common-linvm1",
+    "type": "Microsoft.DevTestLab/schedules",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-gryff-di-1947",
+    "location": "eastus2",
+    "name": "hpotter-gryff-di-1947",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.Network/privateEndpoints/hpotter-itg-gryff-di1-aigw-pe1",
+    "location": "eastus2",
+    "name": "hpotter-itg-gryff-di1-aigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.Network/networkInterfaces/hpotter-itg-gryff-di1-aigw-pe1-nic",
+    "location": "eastus2",
+    "name": "hpotter-itg-gryff-di1-aigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com",
+    "location": "global",
+    "name": "privatelink.cognitiveservices.azure.com",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com/virtualNetworkLinks/ailmg2vbwgjke",
+    "location": "global",
+    "name": "privatelink.cognitiveservices.azure.com/ailmg2vbwgjke",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.App/containerApps/hpaip-dev-diaigw-contapp1",
+    "location": "eastus2",
+    "name": "hpaip-dev-diaigw-contapp1",
+    "type": "Microsoft.App/containerApps",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.App/containerApps/hpaip-stg-diaigw-contapp1",
+    "location": "eastus2",
+    "name": "hpaip-stg-diaigw-contapp1",
+    "type": "Microsoft.App/containerApps",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-stg-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-gryff-stg-di-1947",
+    "location": "eastus2",
+    "name": "hpotter-gryff-stg-di-1947",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-stg-rg1/providers/Microsoft.Network/privateEndpoints/hpotter-stg-gryff-di1-diaigw-pe1",
+    "location": "eastus2",
+    "name": "hpotter-stg-gryff-di1-diaigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-stg-rg1/providers/Microsoft.Network/networkInterfaces/hpotter-stg-gryff-di1-diaigw-pe1-nic",
+    "location": "eastus2",
+    "name": "hpotter-stg-gryff-di1-diaigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com",
+    "location": "global",
+    "name": "privatelink.cognitiveservices.azure.com",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com/virtualNetworkLinks/bcjfoxa364n6q",
+    "location": "global",
+    "name": "privatelink.cognitiveservices.azure.com/bcjfoxa364n6q",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkSecurityGroups/load-generator-lin-vm-nsg",
+    "location": "eastus2",
+    "name": "load-generator-lin-vm-nsg",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/load-generator-lin-vm815_z1",
+    "location": "eastus2",
+    "name": "load-generator-lin-vm815_z1",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Compute/virtualMachines/load-generator-lin-vm",
+    "location": "eastus2",
+    "name": "load-generator-lin-vm",
+    "type": "Microsoft.Compute/virtualMachines",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/HPAIP-DEV-COMMON-RG1/providers/Microsoft.Compute/disks/load-generator-lin-vm_disk1_0ad26884a31b49af8d6cf47431015ae3",
+    "location": "eastus2",
+    "name": "load-generator-lin-vm_disk1_0ad26884a31b49af8d6cf47431015ae3",
+    "type": "Microsoft.Compute/disks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-load-generator-lin-vm",
+    "location": "eastus2",
+    "name": "shutdown-computevm-load-generator-lin-vm",
+    "type": "Microsoft.DevTestLab/schedules",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkSecurityGroups/mock-server-lin-vm-nsg",
+    "location": "eastus2",
+    "name": "mock-server-lin-vm-nsg",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/mock-server-lin-vm844_z1",
+    "location": "eastus2",
+    "name": "mock-server-lin-vm844_z1",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Compute/virtualMachines/mock-server-lin-vm",
+    "location": "eastus2",
+    "name": "mock-server-lin-vm",
+    "type": "Microsoft.Compute/virtualMachines",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/HPAIP-DEV-COMMON-RG1/providers/Microsoft.Compute/disks/mock-server-lin-vm_disk1_ca4b9d6f4de1446cbcae1e4cc20d4169",
+    "location": "eastus2",
+    "name": "mock-server-lin-vm_disk1_ca4b9d6f4de1446cbcae1e4cc20d4169",
+    "type": "Microsoft.Compute/disks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-mock-server-lin-vm",
+    "location": "eastus2",
+    "name": "shutdown-computevm-mock-server-lin-vm",
+    "type": "Microsoft.DevTestLab/schedules",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.CognitiveServices/accounts/di-mmri",
+    "location": "eastus2",
+    "name": "di-mmri",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.Network/privateEndpoints/perfop-stg-frntr-di1-diaigw-pe1",
+    "location": "eastus2",
+    "name": "perfop-stg-frntr-di1-diaigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.Network/networkInterfaces/perfop-stg-frntr-di1-diaigw-pe1-nic",
+    "location": "eastus2",
+    "name": "perfop-stg-frntr-di1-diaigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/LogAnalyticsDefaultResources/providers/microsoft.operationalInsights/querypacks/DefaultQueryPack",
+    "location": "eastus2",
+    "name": "DefaultQueryPack",
+    "type": "microsoft.operationalInsights/querypacks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpipacad-stg-rg1/providers/Microsoft.CognitiveServices/accounts/hpipacad-stg-acadprtl-aoai1",
+    "location": "eastus2",
+    "name": "hpipacad-stg-acadprtl-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpipacad-stg-rg1/providers/Microsoft.Network/privateEndpoints/hpipacad-stg-acadprtl-aoai1-aigw-pe2",
+    "location": "eastus2",
+    "name": "hpipacad-stg-acadprtl-aoai1-aigw-pe2",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpipacad-stg-rg1/providers/Microsoft.Network/networkInterfaces/hpipacad-stg-acadprtl-aoai1-aigw-pe2-nic",
+    "location": "eastus2",
+    "name": "hpipacad-stg-acadprtl-aoai1-aigw-pe2-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.MachineLearningServices/registries/hpaip-dev-common-mlreg1",
+    "location": "eastus2",
+    "name": "hpaip-dev-common-mlreg1",
+    "type": "Microsoft.MachineLearningServices/registries",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/azureml-rg-hpaip-dev-common-mlreg1_a04630b0-3e39-40fd-b1c3-da515b3e01a7/providers/Microsoft.Storage/storageAccounts/93b0729d4f7",
+    "location": "eastus2",
+    "name": "93b0729d4f7",
+    "type": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/azureml-rg-hpaip-dev-common-mlreg1_a04630b0-3e39-40fd-b1c3-da515b3e01a7/providers/Microsoft.ContainerRegistry/registries/115955b3976",
+    "location": "eastus2",
+    "name": "115955b3976",
+    "type": "Microsoft.ContainerRegistry/registries",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.Storage/storageAccounts/hpotterdevst1",
+    "location": "eastus2",
+    "name": "hpotterdevst1",
+    "type": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-dev-eastus2-common-aoai1",
+    "location": "eastus2",
+    "name": "hpotter-dev-eastus2-common-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.MachineLearningServices/workspaces/hpotter-dev-eastus2-aihub1",
+    "location": "eastus2",
+    "name": "hpotter-dev-eastus2-aihub1",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.MachineLearningServices/workspaces/hpotter-dev-eastus2-gryff-aiproj1",
+    "location": "eastus2",
+    "name": "hpotter-dev-eastus2-gryff-aiproj1",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/microsoft.insights/actiongroups/contapp-latency-stg-alert",
+    "location": "eastus2",
+    "name": "contapp-latency-stg-alert",
+    "type": "microsoft.insights/actiongroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/microsoft.insights/metricalerts/stg-contapp-high-latency",
+    "location": "global",
+    "name": "stg-contapp-high-latency",
+    "type": "microsoft.insights/metricalerts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkSecurityGroups/hpaip-dev-apim-nsg1",
+    "location": "eastus2",
+    "name": "hpaip-dev-apim-nsg1",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/wpp-stg-rg1/providers/Microsoft.CognitiveServices/accounts/wpp-stg-rcaai-aoai1",
+    "location": "eastus2",
+    "name": "wpp-stg-rcaai-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/wpp-stg-rg1/providers/Microsoft.Network/privateEndpoints/wpp-stg-rcaai-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "wpp-stg-rcaai-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/wpp-stg-rg1/providers/Microsoft.Network/networkInterfaces/wpp-stg-rcaai-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "wpp-stg-rcaai-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/dms-stg-rg1/providers/Microsoft.CognitiveServices/accounts/dms-stg-aog-aoai1",
+    "location": "eastus2",
+    "name": "dms-stg-aog-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/dms-stg-rg1/providers/Microsoft.Network/privateEndpoints/dms-stg-aog-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "dms-stg-aog-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/dms-stg-rg1/providers/Microsoft.Network/networkInterfaces/dms-stg-aog-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "dms-stg-aog-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateEndpoints/hpip-dev-common-aoai1-apim3-pe1",
+    "location": "eastus2",
+    "name": "hpip-dev-common-aoai1-apim3-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/hpip-dev-common-aoai1-apim3-pe1-nic",
+    "location": "eastus2",
+    "name": "hpip-dev-common-aoai1-apim3-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.azure-api.net",
+    "location": "global",
+    "name": "privatelink.azure-api.net",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.azure-api.net/virtualNetworkLinks/ailmg2vbwgjke",
+    "location": "global",
+    "name": "privatelink.azure-api.net/ailmg2vbwgjke",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-dev-gryff-aoai2",
+    "location": "eastus2",
+    "name": "hpotter-dev-gryff-aoai2",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/networkInterfaces/apimtestvm113_z1",
+    "location": "eastus2",
+    "name": "apimtestvm113_z1",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Compute/virtualMachines/apimtestvm1",
+    "location": "eastus2",
+    "name": "apimtestvm1",
+    "type": "Microsoft.Compute/virtualMachines",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/HPAIP-DEV-COMMON-RG1/providers/Microsoft.Compute/disks/apimtestvm1_OsDisk_1_d041d348dee94ae3a6a7ee06153b30cf",
+    "location": "eastus2",
+    "name": "apimtestvm1_OsDisk_1_d041d348dee94ae3a6a7ee06153b30cf",
+    "type": "Microsoft.Compute/disks",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-apimtestvm1",
+    "location": "eastus2",
+    "name": "shutdown-computevm-apimtestvm1",
+    "type": "Microsoft.DevTestLab/schedules",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/wpp-stg-rg1/providers/Microsoft.CognitiveServices/accounts/wpp-stg-ops-aoai1",
+    "location": "eastus2",
+    "name": "wpp-stg-ops-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/wpp-stg-rg1/providers/Microsoft.Network/privateEndpoints/wpp-stg-ops-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "wpp-stg-ops-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/wpp-stg-rg1/providers/Microsoft.Network/networkInterfaces/wpp-stg-ops-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "wpp-stg-ops-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ssel-stg-rg1/providers/Microsoft.CognitiveServices/accounts/ssel-stg-ta-aoai1",
+    "location": "eastus2",
+    "name": "ssel-stg-ta-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ssel-stg-rg1/providers/Microsoft.Network/privateEndpoints/ssel-stg-ta-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "ssel-stg-ta-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ssel-stg-rg1/providers/Microsoft.Network/networkInterfaces/ssel-stg-ta-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "ssel-stg-ta-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.CognitiveServices/accounts/perfop-stg-falcn-aoai1",
+    "location": "eastus2",
+    "name": "perfop-stg-falcn-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.Network/privateEndpoints/perfop-stg-falcn-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "perfop-stg-falcn-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/perfop-stg-rg1/providers/Microsoft.Network/networkInterfaces/perfop-stg-falcn-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "perfop-stg-falcn-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.MachineLearningServices/workspaces/hpotter-dev-eastus2-slyth-aiproj1",
+    "location": "eastus2",
+    "name": "hpotter-dev-eastus2-slyth-aiproj1",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-dev-eastus2-slyth-aisvc1",
+    "location": "eastus2",
+    "name": "hpotter-dev-eastus2-slyth-aisvc1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-dev-eastus2-slyth-aisvc1/projects/firstProject",
+    "location": "eastus2",
+    "name": "hpotter-dev-eastus2-slyth-aisvc1/firstProject",
+    "type": "Microsoft.CognitiveServices/accounts/projects",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.CognitiveServices/accounts/sqse-stg-qualai-aoai1",
+    "location": "eastus2",
+    "name": "sqse-stg-qualai-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.Network/privateEndpoints/sqse-stg-qualai-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "sqse-stg-qualai-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.Network/networkInterfaces/sqse-stg-qualai-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "sqse-stg-qualai-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/bdai-stg-rg1/providers/Microsoft.CognitiveServices/accounts/bdai-stg-genelt-aoai1",
+    "location": "eastus2",
+    "name": "bdai-stg-genelt-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/bdai-stg-rg1/providers/Microsoft.Network/privateEndpoints/bdai-stg-genelt-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "bdai-stg-genelt-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/bdai-stg-rg1/providers/Microsoft.Network/networkInterfaces/bdai-stg-genelt-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "bdai-stg-genelt-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ea-stg-rg1/providers/Microsoft.CognitiveServices/accounts/ea-stg-dhrl-aoai1",
+    "location": "eastus2",
+    "name": "ea-stg-dhrl-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ea-stg-rg1/providers/Microsoft.Network/privateEndpoints/ea-stg-dhrl-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "ea-stg-dhrl-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/ea-stg-rg1/providers/Microsoft.Network/networkInterfaces/ea-stg-dhrl-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "ea-stg-dhrl-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/lrgfmt-stg-rg1/providers/Microsoft.CognitiveServices/accounts/lrgfmt-stg-ordint-aoai1",
+    "location": "eastus2",
+    "name": "lrgfmt-stg-ordint-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/lrgfmt-stg-rg1/providers/Microsoft.Network/privateEndpoints/lrgfmt-stg-ordint-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "lrgfmt-stg-ordint-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/lrgfmt-stg-rg1/providers/Microsoft.Network/networkInterfaces/lrgfmt-stg-ordint-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "lrgfmt-stg-ordint-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.CognitiveServices/accounts/sqse-stg-evce-aoai1",
+    "location": "eastus2",
+    "name": "sqse-stg-evce-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.Network/privateEndpoints/sqse-stg-evce-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "sqse-stg-evce-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.Network/networkInterfaces/sqse-stg-evce-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "sqse-stg-evce-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Network/publicIPAddresses/pubIp-apimtestvm1",
+    "location": "eastus2",
+    "name": "pubIp-apimtestvm1",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Storage/storageAccounts/hpaipdevcommonrg1851a",
+    "location": "eastus2",
+    "name": "hpaipdevcommonrg1851a",
+    "type": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.ManagedIdentity/userAssignedIdentities/hpaip-dev-eventhub-splunk1-uami",
+    "location": "eastus2",
+    "name": "hpaip-dev-eventhub-splunk1-uami",
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-dev-common-rg1/providers/Microsoft.Web/serverFarms/ASP-hpaipdevcommonrg1-adeb",
+    "location": "eastus2",
+    "name": "ASP-hpaipdevcommonrg1-adeb",
+    "type": "Microsoft.Web/serverFarms",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpipacad-stg-rg1/providers/Microsoft.CognitiveServices/accounts/hpipacad-stg-acadval-aoai1",
+    "location": "eastus2",
+    "name": "hpipacad-stg-acadval-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpipacad-stg-rg1/providers/Microsoft.Network/privateEndpoints/hipipacad-stg-acadval-aoai1-aigw-pe2",
+    "location": "eastus2",
+    "name": "hipipacad-stg-acadval-aoai1-aigw-pe2",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpipacad-stg-rg1/providers/Microsoft.Network/networkInterfaces/hipipacad-stg-acadval-aoai1-aigw-pe2-nic",
+    "location": "eastus2",
+    "name": "hipipacad-stg-acadval-aoai1-aigw-pe2-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/orionai-stg-rg1/providers/Microsoft.CognitiveServices/accounts/orionai-stg-orionaiproj-aoai1",
+    "location": "eastus2",
+    "name": "orionai-stg-orionaiproj-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/orionai-stg-rg1/providers/Microsoft.Network/privateEndpoints/orionai-stg-orionaiproj-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "orionai-stg-orionaiproj-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/orionai-stg-rg1/providers/Microsoft.Network/networkInterfaces/orionai-stg-orionaiproj-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "orionai-stg-orionaiproj-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/microsoft.insights/actiongroups/contapp-latency-stg-alert2",
+    "location": "eastus2",
+    "name": "contapp-latency-stg-alert2",
+    "type": "microsoft.insights/actiongroups",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpps-stg-rg1/providers/Microsoft.CognitiveServices/accounts/hpps-stg-iidoc-aoai1",
+    "location": "eastus2",
+    "name": "hpps-stg-iidoc-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpps-stg-rg1/providers/Microsoft.Network/privateEndpoints/hpps-stg-iidoc-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "hpps-stg-iidoc-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpps-stg-rg1/providers/Microsoft.Network/networkInterfaces/hpps-stg-iidoc-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "hpps-stg-iidoc-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpotter-dev-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-custom-di-1947",
+    "location": "eastus2",
+    "name": "hpotter-custom-di-1947",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.CognitiveServices/accounts/sqse-stg-tnibtf-aoai1",
+    "location": "eastus2",
+    "name": "sqse-stg-tnibtf-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.Network/privateEndpoints/sqse-stg-tnibtf-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "sqse-stg-tnibtf-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/sqse-stg-rg1/providers/Microsoft.Network/networkInterfaces/sqse-stg-tnibtf-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "sqse-stg-tnibtf-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/aip-stg-rg1/providers/Microsoft.CognitiveServices/accounts/aip-stg-enroll-aoai1",
+    "location": "eastus2",
+    "name": "aip-stg-enroll-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/aip-stg-rg1/providers/Microsoft.Network/privateEndpoints/aip-stg-enroll-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "aip-stg-enroll-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/aip-stg-rg1/providers/Microsoft.Network/networkInterfaces/aip-stg-enroll-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "aip-stg-enroll-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/aidiag-stg-rg1/providers/Microsoft.CognitiveServices/accounts/aidiag-stg-tassist-aoai1",
+    "location": "eastus2",
+    "name": "aidiag-stg-tassist-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/aidiag-stg-rg1/providers/Microsoft.Network/privateEndpoints/aidiag-stg-tassist-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "aidiag-stg-tassist-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/aidiag-stg-rg1/providers/Microsoft.Network/networkInterfaces/aidiag-stg-tassist-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "aidiag-stg-tassist-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/rcb-stg-rg1/providers/Microsoft.CognitiveServices/accounts/rcb-stg-rcbait-aoai1",
+    "location": "eastus2",
+    "name": "rcb-stg-rcbait-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/rcb-stg-rg1/providers/Microsoft.Network/privateEndpoints/rcb-stg-rcbait-aoai1-aigw-pe",
+    "location": "eastus2",
+    "name": "rcb-stg-rcbait-aoai1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/rcb-stg-rg1/providers/Microsoft.Network/networkInterfaces/rcb-stg-rcbait-aoai1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "rcb-stg-rcbait-aoai1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89e405b4-384a-4fcd-b533-d1667c9caf0c"
+  },
+  {
+    "id": "/subscriptions/569cebd4-12e2-467c-b3ef-8041a5b2b94e/resourceGroups/Core-Services-Automation-SouthCentralUS-RG/providers/microsoft.alertsmanagement/smartDetectorAlertRules/Failure Anomalies - MoveWorks_POCutmkth",
+    "location": "global",
+    "name": "Failure Anomalies - MoveWorks_POCutmkth",
+    "type": "microsoft.alertsmanagement/smartDetectorAlertRules",
+    "subscriptionId": "569cebd4-12e2-467c-b3ef-8041a5b2b94e"
+  },
+  {
+    "id": "/subscriptions/569cebd4-12e2-467c-b3ef-8041a5b2b94e/resourceGroups/Core-Services-Automation-SouthCentralUS-RG/providers/Microsoft.Compute/images/WindowsServer2012R2-DC-HUB-2012-02-28",
+    "location": "southcentralus",
+    "name": "WindowsServer2012R2-DC-HUB-2012-02-28",
+    "type": "Microsoft.Compute/images",
+    "subscriptionId": "569cebd4-12e2-467c-b3ef-8041a5b2b94e"
+  },
+  {
+    "id": "/subscriptions/569cebd4-12e2-467c-b3ef-8041a5b2b94e/resourceGroups/Core-Services-Automation-SouthCentralUS-RG/providers/microsoft.insights/components/MoveWorks_POCutmkth",
+    "location": "southcentralus",
+    "name": "MoveWorks_POCutmkth",
+    "type": "microsoft.insights/components",
+    "subscriptionId": "569cebd4-12e2-467c-b3ef-8041a5b2b94e"
+  },
+  {
+    "id": "/subscriptions/569cebd4-12e2-467c-b3ef-8041a5b2b94e/resourceGroups/Core-Services-Automation-SouthCentralUS-RG/providers/Microsoft.BotService/botServices/MoveWorks_POC",
+    "location": "global",
+    "name": "MoveWorks_POC",
+    "type": "Microsoft.BotService/botServices",
+    "subscriptionId": "569cebd4-12e2-467c-b3ef-8041a5b2b94e"
+  },
+  {
+    "id": "/subscriptions/a522ad86-4767-440a-90cb-fa51df576e53/resourceGroups/Core-Services-Automation-SouthCentralUS-RG/providers/Microsoft.Web/sites/HPMSMasterDev",
+    "location": "southcentralus",
+    "name": "HPMSMasterDev",
+    "type": "Microsoft.Web/sites",
+    "subscriptionId": "a522ad86-4767-440a-90cb-fa51df576e53"
+  },
+  {
+    "id": "/subscriptions/a522ad86-4767-440a-90cb-fa51df576e53/resourceGroups/Core-Services-Automation-SouthCentralUS-RG/providers/Microsoft.Compute/images/WindowsServer2012R2-DC-HUB-2012-02-28",
+    "location": "southcentralus",
+    "name": "WindowsServer2012R2-DC-HUB-2012-02-28",
+    "type": "Microsoft.Compute/images",
+    "subscriptionId": "a522ad86-4767-440a-90cb-fa51df576e53"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-pro-aigw-vnet1-bastion-ip",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-vnet1-bastion-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/virtualNetworks/hpaip-pro-aigw-vnet1",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-vnet1",
+    "type": "Microsoft.Network/virtualNetworks",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus2",
+    "location": "eastus2",
+    "name": "NetworkWatcher_eastus2",
+    "type": "Microsoft.Network/networkWatchers",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/bastionHosts/hpaip-pro-aigw-vnet1-bastion",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-vnet1-bastion",
+    "type": "Microsoft.Network/bastionHosts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/networkSecurityGroups/hpaip-pro-aigw-nsg1",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-nsg1",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.KeyVault/vaults/hpaipprocommonkv1",
+    "location": "eastus2",
+    "name": "hpaipprocommonkv1",
+    "type": "Microsoft.KeyVault/vaults",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-pro-common-kv1-vnet1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-pro-common-kv1-vnet1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-pro-common-kv1-vnet1-pe1.nic.4d94612a-ec80-441b-94b2-15a602efe5e5",
+    "location": "eastus2",
+    "name": "hpaip-pro-common-kv1-vnet1-pe1.nic.4d94612a-ec80-441b-94b2-15a602efe5e5",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net",
+    "location": "global",
+    "name": "privatelink.vaultcore.azure.net",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net/virtualNetworkLinks/bsbayqhokp37i",
+    "location": "global",
+    "name": "privatelink.vaultcore.azure.net/bsbayqhokp37i",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/applicationGatewayWebApplicationFirewallPolicies/hpaip-pro-aigw-waf1",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-waf1",
+    "type": "Microsoft.Network/applicationGatewayWebApplicationFirewallPolicies",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-pro-aigw-ng1-ip",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-ng1-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/natGateways/hpaip-pro-aigw-ng1",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-ng1",
+    "type": "Microsoft.Network/natGateways",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.OperationalInsights/workspaces/hpaipprocommonrg1logan1",
+    "location": "eastus2",
+    "name": "hpaipprocommonrg1logan1",
+    "type": "Microsoft.OperationalInsights/workspaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-pro-aigw-contapp1-manenv1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-contapp1-manenv1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-pro-aigw-contapp1-manenv1-pe1.nic.d206cdae-d6a9-4175-a0d4-8716f648ae56",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-contapp1-manenv1-pe1.nic.d206cdae-d6a9-4175-a0d4-8716f648ae56",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.eastus2.azurecontainerapps.io",
+    "location": "global",
+    "name": "privatelink.eastus2.azurecontainerapps.io",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.eastus2.azurecontainerapps.io/virtualNetworkLinks/hpaip-pro-aigw-manenv1-link",
+    "location": "global",
+    "name": "privatelink.eastus2.azurecontainerapps.io/hpaip-pro-aigw-manenv1-link",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.App/managedEnvironments/hpaip-pro-aigw-manenv2",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-manenv2",
+    "type": "Microsoft.App/managedEnvironments",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/ME_hpaip-pro-aigw-manenv2_hpaip-pro-common-rg1_eastus2/providers/Microsoft.Network/loadBalancers/capp-svc-lb",
+    "location": "eastus2",
+    "name": "capp-svc-lb",
+    "type": "Microsoft.Network/loadBalancers",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-pro-aigw-contapp2-manenv2-pe1",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-contapp2-manenv2-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.App/containerApps/hpaip-pro-aigw-contapp2",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-contapp2",
+    "type": "Microsoft.App/containerApps",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-pro-aigw-contapp2-manenv2-pe1.nic.c4afe1dc-42f7-487d-9893-91081b9e45e9",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-contapp2-manenv2-pe1.nic.c4afe1dc-42f7-487d-9893-91081b9e45e9",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Storage/storageAccounts/hpaipprocommonst1",
+    "location": "eastus2",
+    "name": "hpaipprocommonst1",
+    "type": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateEndpoints/hpaip-pro-common-st1-vnet1-pe1",
+    "location": "eastus2",
+    "name": "hpaip-pro-common-st1-vnet1-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-pro-common-st1-vnet1-pe1.nic.d26e67f6-c639-4b43-b995-b2f96ed21c06",
+    "location": "eastus2",
+    "name": "hpaip-pro-common-st1-vnet1-pe1.nic.d26e67f6-c639-4b43-b995-b2f96ed21c06",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net",
+    "location": "global",
+    "name": "privatelink.blob.core.windows.net",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net/virtualNetworkLinks/bsbayqhokp37i",
+    "location": "global",
+    "name": "privatelink.blob.core.windows.net/bsbayqhokp37i",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/networkInterfaces/hpaip-pro-common-linvm1416_z1",
+    "location": "eastus2",
+    "name": "hpaip-pro-common-linvm1416_z1",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Compute/virtualMachines/hpaip-pro-common-linvm1",
+    "location": "eastus2",
+    "name": "hpaip-pro-common-linvm1",
+    "type": "Microsoft.Compute/virtualMachines",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/HPAIP-PRO-COMMON-RG1/providers/Microsoft.Compute/disks/hpaip-pro-common-linvm1_OsDisk_1_08d71fe0feec4ec0900ce23f1bc7fbdd",
+    "location": "eastus2",
+    "name": "hpaip-pro-common-linvm1_OsDisk_1_08d71fe0feec4ec0900ce23f1bc7fbdd",
+    "type": "Microsoft.Compute/disks",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-hpaip-pro-common-linvm1",
+    "location": "eastus2",
+    "name": "shutdown-computevm-hpaip-pro-common-linvm1",
+    "type": "Microsoft.DevTestLab/schedules",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/publicIPAddresses/hpaip-pro-aigw-ag1-ip",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-ag1-ip",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/applicationGateways/hpaip-pro-aigw-ag1",
+    "location": "eastus2",
+    "name": "hpaip-pro-aigw-ag1",
+    "type": "Microsoft.Network/applicationGateways",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpotter-pro-rg1/providers/Microsoft.CognitiveServices/accounts/hpotter-pro-gryff-aoai1",
+    "location": "eastus2",
+    "name": "hpotter-pro-gryff-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpotter-pro-rg1/providers/Microsoft.Network/privateEndpoints/hpotter-pro-gryff-aoai1-aigw-pe1",
+    "location": "eastus2",
+    "name": "hpotter-pro-gryff-aoai1-aigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpotter-pro-rg1/providers/Microsoft.Network/networkInterfaces/hpotter-pro-gryff-aoai1-aigw-pe1-nic",
+    "location": "eastus2",
+    "name": "hpotter-pro-gryff-aoai1-aigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.openai.azure.com",
+    "location": "global",
+    "name": "privatelink.openai.azure.com",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.openai.azure.com/virtualNetworkLinks/bsbayqhokp37i",
+    "location": "global",
+    "name": "privatelink.openai.azure.com/bsbayqhokp37i",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/ipssai-pro-rg1/providers/Microsoft.CognitiveServices/accounts/ipssai-pro-printosnio-aoai1",
+    "location": "eastus2",
+    "name": "ipssai-pro-printosnio-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/ipssai-pro-rg1/providers/Microsoft.Network/privateEndpoints/ipssai-pro-printosnio-aoai1-aigw-pe1",
+    "location": "eastus2",
+    "name": "ipssai-pro-printosnio-aoai1-aigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/ipssai-pro-rg1/providers/Microsoft.Network/networkInterfaces/ipssai-pro-printosnio-aoai1-aigw-pe1-nic",
+    "location": "eastus2",
+    "name": "ipssai-pro-printosnio-aoai1-aigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/microsoft.insights/actiongroups/contapp-latency-pro-alert",
+    "location": "eastus2",
+    "name": "contapp-latency-pro-alert",
+    "type": "microsoft.insights/actiongroups",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/microsoft.insights/metricalerts/pro-contapp-high-latency",
+    "location": "global",
+    "name": "pro-contapp-high-latency",
+    "type": "microsoft.insights/metricalerts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/ipssai-pro-rg1/providers/microsoft.insights/actiongroups/ipssai-latency-pro-alert",
+    "location": "eastus2",
+    "name": "ipssai-latency-pro-alert",
+    "type": "microsoft.insights/actiongroups",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/ipssai-pro-rg1/providers/microsoft.insights/metricalerts/pro-ipssai-aoai-high-latency",
+    "location": "global",
+    "name": "pro-ipssai-aoai-high-latency",
+    "type": "microsoft.insights/metricalerts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/microsoft.insights/actiongroups/hpaip-pro-ops",
+    "location": "eastus2",
+    "name": "hpaip-pro-ops",
+    "type": "microsoft.insights/actiongroups",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.App/containerApps/hpaip-pro-diaigw-contapp1",
+    "location": "eastus2",
+    "name": "hpaip-pro-diaigw-contapp1",
+    "type": "Microsoft.App/containerApps",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/perfop-pro-rg1/providers/Microsoft.CognitiveServices/accounts/di-mmri-pro",
+    "location": "eastus2",
+    "name": "di-mmri-pro",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/perfop-pro-rg1/providers/Microsoft.Network/privateEndpoints/perfop-pro-frntr-di1-diaigw-pe1",
+    "location": "eastus2",
+    "name": "perfop-pro-frntr-di1-diaigw-pe1",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/perfop-pro-rg1/providers/Microsoft.Network/networkInterfaces/perfop-pro-frntr-di1-diaigw-pe1-nic",
+    "location": "eastus2",
+    "name": "perfop-pro-frntr-di1-diaigw-pe1-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com",
+    "location": "global",
+    "name": "privatelink.cognitiveservices.azure.com",
+    "type": "Microsoft.Network/privateDnsZones",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/hpaip-pro-common-rg1/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com/virtualNetworkLinks/bsbayqhokp37i",
+    "location": "global",
+    "name": "privatelink.cognitiveservices.azure.com/bsbayqhokp37i",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/perfop-pro-rg1/providers/Microsoft.CognitiveServices/accounts/perfop-pro-falcn-aoai1",
+    "location": "eastus2",
+    "name": "perfop-pro-falcn-aoai1",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/perfop-pro-rg1/providers/Microsoft.Network/privateEndpoints/perfop-pro-falcn-aiao1-aigw-pe",
+    "location": "eastus2",
+    "name": "perfop-pro-falcn-aiao1-aigw-pe",
+    "type": "Microsoft.Network/privateEndpoints",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/perfop-pro-rg1/providers/Microsoft.Network/networkInterfaces/perfop-pro-falcn-aiao1-aigw-pe-nic",
+    "location": "eastus2",
+    "name": "perfop-pro-falcn-aiao1-aigw-pe-nic",
+    "type": "Microsoft.Network/networkInterfaces",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  },
+  {
+    "id": "/subscriptions/89b9b97e-17a9-4133-9ed9-88eca13e3ccd/resourceGroups/ipssai-pro-rg1/providers/microsoft.insights/actiongroups/ipssai-pro-printosnio-ag",
+    "location": "global",
+    "name": "ipssai-pro-printosnio-ag",
+    "type": "microsoft.insights/actiongroups",
+    "subscriptionId": "89b9b97e-17a9-4133-9ed9-88eca13e3ccd"
+  }
+]
