@@ -1,7 +1,7 @@
 ##############################################
 # Variables for WAF Policy Module
 # HP Runway Standards: Clear descriptions, 
-# required vs optional flagged, validations applied
+# Required vs Optional flagged, validations applied
 ##############################################
 
 variable "name" {
@@ -20,7 +20,7 @@ variable "resource_group_name" {
 
   validation {
     condition     = length(var.resource_group_name) > 0
-    error_message = "The 'resource_group_name' variable must be provided."
+    error_message = "The 'resource_group_name' variable must be provided and cannot be empty."
   }
 }
 
@@ -29,32 +29,36 @@ variable "location" {
   type        = string
 
   validation {
-    condition     = length(var.location) > 0
-    error_message = "The 'location' variable must be provided and cannot be empty."
+    condition     = can(regex("^[a-z0-9]+$", var.location))
+    error_message = "The 'location' variable must be a valid Azure region name in lowercase (e.g., eastus, westeurope)."
   }
 }
 
 variable "custom_rules" {
-  description = "(Optional) List of custom WAF rules to apply. If empty, no custom rules will be created."
+  description = <<EOT
+(Optional) List of custom WAF rules to apply. If empty, no custom rules will be created.
+- Supports rule_type: MatchRule or RateLimitRule
+- Supports action: Allow, Block, Log, Redirect
+EOT
   type = list(object({
-    name                   = string
-    priority               = number
-    rule_type              = string                  # Possible values: MatchRule, RateLimitRule
-    action                 = string                  # Possible values: Allow, Block, Log, Redirect
-    enabled                = optional(bool, true)
-    rate_limit_duration    = optional(string)        # For rate limiting rules
-    rate_limit_threshold   = optional(number)        # Threshold count
-    group_rate_limit_by    = optional(string)        # e.g., ClientAddr
+    name                 = string
+    priority             = number
+    rule_type            = string                  # MatchRule or RateLimitRule
+    action               = string                  # Allow, Block, Log, Redirect
+    enabled              = optional(bool, true)
+    rate_limit_duration  = optional(string, "1m")  # Example: 1m, 5m
+    rate_limit_threshold = optional(number, 100)
+    group_rate_limit_by  = optional(string, "ClientAddr")
 
     match_conditions = list(object({
       match_variables = list(object({
         variable_name = string                      # e.g., RemoteAddr, RequestHeader
         selector      = optional(string)
       }))
-      match_values        = optional(list(string))
+      match_values        = optional(list(string), [])
       operator            = string                  # e.g., IPMatch, Contains, Equals
-      negation_condition  = optional(bool)
-      transforms          = optional(list(string))  # e.g., Lowercase, UrlDecode
+      negation_condition  = optional(bool, false)
+      transforms          = optional(list(string), [])
     }))
   }))
   default = []
@@ -63,15 +67,15 @@ variable "custom_rules" {
 variable "policy_settings" {
   description = "(Optional) General settings for the WAF policy. If null, defaults are applied."
   type = object({
-    enabled                               = optional(bool, true)
-    mode                                  = optional(string, "Prevention") # Detection or Prevention
-    file_upload_limit_in_mb               = optional(number, 100)
-    request_body_check                    = optional(bool, true)
-    max_request_body_size_in_kb           = optional(number, 128)
-    request_body_enforcement              = optional(bool, true)
-    request_body_inspect_limit_in_kb      = optional(number, 128)
+    enabled                          = optional(bool, true)
+    mode                             = optional(string, "Prevention") # Detection or Prevention
+    file_upload_limit_in_mb          = optional(number, 100)
+    request_body_check               = optional(bool, true)
+    max_request_body_size_in_kb      = optional(number, 128)
+    request_body_enforcement         = optional(bool, true)
+    request_body_inspect_limit_in_kb = optional(number, 128)
     js_challenge_cookie_expiration_in_minutes = optional(number, 30)
-    file_upload_enforcement               = optional(bool, false)
+    file_upload_enforcement          = optional(bool, false)
 
     log_scrubbing = optional(object({
       enabled = optional(bool, true)
@@ -83,7 +87,17 @@ variable "policy_settings" {
       }))
     }))
   })
-  default = null
+  default = {
+    enabled                          = true
+    mode                             = "Prevention"
+    file_upload_limit_in_mb          = 100
+    request_body_check               = true
+    max_request_body_size_in_kb      = 128
+    request_body_enforcement         = true
+    request_body_inspect_limit_in_kb = 128
+    js_challenge_cookie_expiration_in_minutes = 30
+    file_upload_enforcement          = false
+  }
 }
 
 variable "managed_rules" {
@@ -99,7 +113,7 @@ variable "managed_rules" {
           enabled = optional(bool, false)
           action  = optional(string)
         }))
-      })))
+      })), [])
     }))
   }))
 
@@ -120,7 +134,7 @@ variable "subscription_id" {
   type        = string
 
   validation {
-    condition     = can(regex("^[0-9a-fA-F-]{36}$", var.subscription_id))
-    error_message = "The 'subscription_id' must be a valid GUID."
+    condition     = can(regex("^[0-9a-fA-F-]{8}-[0-9a-fA-F-]{4}-[0-9a-fA-F-]{4}-[0-9a-fA-F-]{4}-[0-9a-fA-F-]{12}$", var.subscription_id))
+    error_message = "The 'subscription_id' must be a valid GUID in the format xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx."
   }
 }
