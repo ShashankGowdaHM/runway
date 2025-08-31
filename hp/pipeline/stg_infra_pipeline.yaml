@@ -1,0 +1,46 @@
+resources:
+  repositories:
+    - repository: templates
+      type: githubenterprise
+      name: codeway/templates
+      endpoint: ghe
+
+trigger:
+  branches:
+    include:
+      - master
+  paths:
+    include:
+      - infra/stg/
+
+pr:
+  branches:
+    include:
+      - master
+  paths:
+    include:
+      - infra/stg/
+
+variables:
+  - group: Defaults
+  - group: tf-pipeline-hp-ai-platform-dev-azure
+
+stages:
+  - template: templates/runway-terragrunt-live-infrastructure-tf-v1.0.x.yaml@templates
+    parameters:
+      gheToken: $(ghePassword)
+      gheUser: $(gheUser)
+      envVars:
+        TF_VAR_client_id: $(client_id)
+        TF_VAR_client_secret: $(client_secret)
+        TF_VAR_tenant_id: $(tenant_id)
+        ARM_CLIENT_ID: $(client_id)
+        ARM_CLIENT_SECRET: $(client_secret)
+        ARM_TENANT_ID: $(tenant_id)
+      terraformVersion: '1.3.7'
+      filterStages: true
+      terragruntStages:
+        stg:
+          terragruntPath: infra/stg
+          variableGroupName: tf-pipeline-hp-ai-platform-dev
+          dependsOn: []

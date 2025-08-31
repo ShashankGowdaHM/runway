@@ -1,6 +1,6 @@
-/* terraform {
-  source = "git::ssh://git@github.azc.ext.hp.com/HPAIP/terraform-modules.git//azurerm/resources/security-group/modules/azurerm_network_security_group?ref=master"
-} */
+terraform {
+  source = "git::ssh://git@github.azc.ext.hp.com/HPAIP/terraform-modules.git//azurerm/resources/subnet/modules/azurerm_subnet?ref=master"
+}
 
 locals {
   # common_vars   = read_terragrunt_config(find_in_parent_folders("commons_infra.hcl"))
@@ -25,6 +25,7 @@ include {
   path = find_in_parent_folders("azure.hcl")
 }
 
+
 dependency "resource_group" {
   config_path                             = "../../resource_group/hpaip-rg1"
   mock_outputs_allowed_terraform_commands = ["validate", "plan"]
@@ -33,10 +34,46 @@ dependency "resource_group" {
   }
 }
 
-inputs = {
-  name                = "hpaip-${local.environment_name}-aigw-nsg1"
-  subscription_id     = "${local.subscription_id}"
-  location            = "${local.location}"
-  resource_group_name = "${dependency.resource_group.outputs.name}"
-  tags                = local.resource_tags
+
+dependency "virtual-network" {
+  config_path                             = "../../virtual-network/hpaip-aigw-vnet1"
+  mock_outputs_allowed_terraform_commands = ["validate", "plan"]
+  mock_outputs = {
+    name = "hpaip-${local.environment_name}-aigw-vnet1"
+  }
 }
+
+
+
+inputs = {
+
+  name = "ContainerAppSubnet1"
+
+  virtual_network_name = "hpaip-stg-aigw-vnet1"
+
+  subscription_id = "${local.subscription_id}"
+
+  location = "${local.location}"
+
+  resource_group_name = "${dependency.resource_group.outputs.name}"
+
+  address_prefixes = ["10.201.8.0/23"]
+
+  delegation = {
+    name = "Microsoft.App.environments"
+    service_delegation = {
+      actions = [
+        "Microsoft.Network/virtualNetworks/subnets/join/action",
+      ]
+      name = "Microsoft.App/environments"
+    }
+  }
+
+
+  tags = local.resource_tags
+
+
+}
+
+
+
