@@ -1,6 +1,6 @@
-# terraform {
-# source = "git::ssh://git@github.azc.ext.hp.com/HPAIP/terraform-modules.git//azurerm/resources/subnet/modules/azurerm_subnet?ref=master"
-# }
+terraform {
+source = "git::ssh://git@github.azc.ext.hp.com/HPAIP/terraform-modules.git//azurerm/resources/subnet/modules/azurerm_subnet?ref=master"
+}
 
 locals {
   # common_vars   = read_terragrunt_config(find_in_parent_folders("commons_infra.hcl"))

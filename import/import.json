@@ -1,20 +1,20 @@
 [
     {
-        "name" : "xxx",
-        "id" : "xxx",
-        "source" : "xxx",
-        "dest" : "xxx"
+        "name" : "hpaip-stg-aigw-vnet1",
+        "id" : "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/virtualNetworks/hpaip-stg-aigw-vnet1",
+        "source" : "https://github.azc.ext.hp.com/HPAIP/terraform-modules.git",
+        "dest" : "virtual-network/hpaip-stg-aigw-vnet1"
     },
     {
-        "name" : "xxx",
-        "id" : "xxx",
-        "source" : "xxx",
-        "dest" : "xxx"
+        "name" : "AppGatewaySubnet1",
+        "id" : "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/virtualNetworks/hpaip-stg-aigw-vnet1/subnets/AppGatewaySubnet1",
+        "source" : "https://github.azc.ext.hp.com/HPAIP/terraform-modules.git",
+        "dest" : "subnet/AppGatewaySubnet1"
     },
     {
-        "name" : "xxx",
-        "id" : "xxx",
-        "source" : "xxx",
-        "dest" : "xxx"
+        "name" : "ContainerAppSubnet1",
+        "id" : "/subscriptions/89e405b4-384a-4fcd-b533-d1667c9caf0c/resourceGroups/hpaip-stg-common-rg1/providers/Microsoft.Network/virtualNetworks/hpaip-stg-aigw-vnet1/subnets/ContainerAppSubnet1",
+        "source" : "https://github.azc.ext.hp.com/HPAIP/terraform-modules.git",
+        "dest" : "subnet/ContainerAppSubnet1"
     }
 ]
